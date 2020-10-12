@@ -1,0 +1,26 @@
+[
+  {
+    "firstName": "Harry",
+    "lastName": "Potter"
+  },
+  {
+    "firstName": "Hermione",
+    "lastName": "Granger"
+  },
+  {
+    "firstName": "Ron",
+    "lastName": "Weasley"
+  },
+  {
+    "firstName": "Sirius",
+    "lastName": "Black"
+  },
+  {
+    "firstName": "Tom",
+    "lastName": "Jedusor"
+  },
+  {
+    "firstName": "Albus",
+    "lastName": "Dumbledore"
+  }
+]
