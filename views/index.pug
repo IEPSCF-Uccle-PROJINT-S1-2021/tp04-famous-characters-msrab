@@ -1,0 +1,62 @@
+doctype html
+html
+	head
+		title Famous Characters
+	body
+		h1 Famous Characters
+
+		form(
+		method= "post"
+		action= "/show")
+			input(
+			type= "checkbox"
+			name= "avengers"
+			id= "avengers"
+			value= "avengers"
+			)
+			label(
+			for= "avengers") Avengers
+
+			input(
+			type= "checkbox"
+			name= "batman"
+			id= "batman"
+			value= "batman"
+			)
+			label(
+			for= "batman") Batman
+
+			input(
+			type= "checkbox"
+			name= "harrypotter"
+			id= "harrypotter"
+			value= "harry_potter"
+			)
+			label(
+			for= "harrypotter") Harry Potter
+
+			br
+
+			input(
+			type= "radio"
+			name= "name"
+			id= "name"
+			value= "name"
+			)
+			label(
+			for= "name") Prénom
+
+			input(
+			type= "radio"
+			name= "name"
+			value= "surname"
+			id= "surname"
+			)
+			label(
+			for= "surname") Nom
+
+			br
+
+			input(type= "submit")
+
+		div
