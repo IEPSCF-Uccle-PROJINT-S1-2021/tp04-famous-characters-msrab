@@ -2,15 +2,14 @@ doctype html
 html
 	head
 		title Famous Characters
+		script(src='characters.js')
 	body
 		h1 Famous Characters
 
-		form(
-		method= "post"
-		action= "/show")
+		div
 			input(
 			type= "checkbox"
-			name= "avengers"
+			name= "characters"
 			id= "avengers"
 			value= "avengers"
 			)
@@ -19,7 +18,7 @@ html
 
 			input(
 			type= "checkbox"
-			name= "batman"
+			name= "characters"
 			id= "batman"
 			value= "batman"
 			)
@@ -28,7 +27,7 @@ html
 
 			input(
 			type= "checkbox"
-			name= "harrypotter"
+			name= "characters"
 			id= "harrypotter"
 			value= "harry_potter"
 			)
@@ -57,6 +56,6 @@ html
 
 			br
 
-			input(type= "submit")
+			button GO
 
-		div
+		div(id= "table")
